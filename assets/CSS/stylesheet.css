@@ -96,6 +96,20 @@ border-color: var(--tealaccent); */
  margin-right: auto;
 }
 
+/* landing main */
+
+/* positioning of captions on landing main photo */
+/* .bottom-right{
+  position: absolute;
+  top: 195vh;
+  left: 20vw;
+  padding-left: 20px;
+  padding-right: 20px; 
+  background-color: var(--peach);
+  border-radius: .5vw;
+  font-size: 2em;
+} */
+
 
 /* forms of contact positioning */
 .contactlist{
