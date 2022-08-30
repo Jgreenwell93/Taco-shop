@@ -1,15 +1,16 @@
 :root{
-    --solidpink:#fda7a6;
+    --tealaccent:#55c3c5;
     --peach:#fdc4ad;
-    --softpink: #fdf6f6;
+    --darkback: #503b3b;
 }
 
 /* setting background color to soft pink both in the html and body */
 html{
 background-color: var(--softpink);
+cursor: url('/assets/CSS/cursor.cur'), auto;
 }
 body{
-  background-color: var(--softpink);
+  background-color: var(--darkback);
 }
 
 /* Scrollbar stylings */
@@ -27,7 +28,7 @@ body{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--solidpink); 
+    background: var(--tealaccent); 
     border-radius: 10px;
   }
   
@@ -43,19 +44,13 @@ body{
 
   /* globally adjust font color, style, margin, and weight */
 *{
-    color:var(--solidpink);
+    color:var(--tealaccent);
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     margin: 0;
     
 }
 
-/* header adjustments */
-.page-header{
-    margin-top: 4vh;
-    display: flex;
-    background-color: var(--softpink);
-}
 
 /* navbar stylings */
 .navbar{
@@ -67,43 +62,54 @@ body{
 /* individual navbar item stylings */
 .navitem{
     text-decoration: none;
-    color: var(--solidpink);
+    color: var(--tealaccent);
     margin: 6vw;
 }
 
-/* landing page carousel sizing and position */
-/* .carousel{
-  width: 98%;
- margin-left: auto;
- margin-right: auto;
-} */
-
-/* carousel item sizing */
-/* .carousel-item{
-  height: 45vh;
-} */
-
-/* landing about information */
-/* .landing-info{
-  background-color: var(--softpink);
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 2;
-  font-size: 1.7em;
+/* header adjustments */
+.page-header{
+  margin-top: 2vh;
+  margin-left: 6vw;
   display: flex;
-  flex-direction: column;
-  text-align: center;
-} */
-
-/* .hero1{
-display: flex;
-justify-content: center;
+  background-color: var(--darkback);
 }
 
-.hero-photo1{
-  height:27vw;
+
+/* logo photo adjustmets */
+.header-photo{
+height: 15vw;
+border-radius: 4%;
+/* border-style: solid;
+border-color: var(--tealaccent); */
+}
+
+/* header name photo adjustments */
+.header-name{
+  margin-left: 8vw;
+}
+
+/* landing page carousel sizing and position */
+.carousel{
+  width: 40%;
+  height: auto;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* landing main */
+
+/* positioning of captions on landing main photo */
+/* .bottom-right{
+  position: absolute;
+  top: 195vh;
+  left: 20vw;
+  padding-left: 20px;
+  padding-right: 20px; 
+  background-color: var(--peach);
+  border-radius: .5vw;
+  font-size: 2em;
 } */
+
 
 /* forms of contact positioning */
 .contactlist{
@@ -126,7 +132,7 @@ justify-content: center;
   display: flex;
   justify-content: center;
   margin-top: 2vh;
-  background-color: var(--softpink);
+  background-color: var(--darkback);
 }
 
 #fcf-form {
@@ -141,10 +147,10 @@ justify-content: center;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: var(--softpink);
+  background-color: var(--darkback);
   padding: 30px;
   padding-bottom: 10px;
-  border: 1px solid var(--solidpink);
+  border: 1px solid var(--darkback);
   border-radius: 0.25rem;
   max-width: 50%;
 }
@@ -179,14 +185,14 @@ justify-content: center;
   color:  black;;
   background-color: white;
   background-clip: padding-box;
-  border: 1px solid var(--solidpink);
+  border: 1px solid var(--tealaccent);
   outline: none;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .fcf-form-control:focus {
-  border: 1px solid var(--solidpink);
+  border: 1px solid var(--tealaccent);
 }
 
 select.fcf-form-control[size], select.fcf-form-control[multiple] {
@@ -296,11 +302,3 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%;
 }
-/* 
-footer{
-  background-color: var(--softpink);
-  text-align: center;
-}
-footer h1{
-  font-size: 1em;
-} */

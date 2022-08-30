@@ -10,16 +10,13 @@
   <link rel="reset" href="assets/CSS/reset.css">
   <link rel="normalize" href="assets/CSS/normalize.css">
   <link rel="stylesheet" href="assets/CSS/stylesheet.css">
-  <title>Gisela Beauty</title>
-  <link rel="icon" type="png" href="images/favicon.ico"/>
+  <title>El Charrito</title>
+  <link rel="icon" type="png" href="images/favicon.ico" />
 </head>
 
 <body>
-  <!-- header area with photo and navbar -->
-  <header class="page-header">
-
-    <img class="header-photo" rel="header-photo" src="/images/Base2.png" alt="HeadImg">
-
+  <!-- nav bar area -->
+  <div class="nav">
     <nav class="navbar">
       <!-- list of navigation bar items -->
       <a class="navitem" href="/index.html">Home</a>
@@ -27,20 +24,77 @@
       <a class="navitem" href="/pages/gallery.html">Gallery</a>
       <a class="navitem" href="/pages/contact.html">Contact/Catering</a>
     </nav>
+  </div>
+
+  <!-- header area with photo and Name -->
+  <header class="page-header">
+
+    <img class="header-photo" rel="header-photo" src="/images/logo.jpg" alt="HeadImg">
+    <img class="header-name" rel="headname" src="/images/headername1.png" alt="el_charrito">
+
+
   </header>
 
- 
-  
-    <br>
+  <!-- landing carosel element -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="100000">
+        <img src="/images/outside3.png" class="d-block w-100" alt="outside1">
+      </div>
+      <div class="carousel-item" data-bs-interval="100000">
+        <img src="/images/outside2.png" class="d-block w-100" alt="outside2">
+      </div>
 
-    <!-- final footing -->
-    <footer>
-      <h1>Precious Gems Marketing</h1>
-    </footer>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
+  <!-- main images body -->
+  <div class="landing-main">
+    <div class="left-block">
+      <!-- left photo of inside 1 with a bottom right over lay with google headliner -->
+      <img src="/images/inside1.png" rel="left-image" alt="inside1">
+
+      <!-- text overlay on image -->
+      <!-- <div class="bottom-right">
+        <h class="photo-caption-h">Longtime restaurant doling out Mexican staples plus breakfast options in an
+          unassuming setting.</h>
+      </div> -->
+    </div>
+
+    <div class="right-block">
+      <div class="top">
+        <!-- 2 top images for plates 2 and 4 -->
+        <img src="/images/plate2.png" rel="left-image2" alt="plate2">
+        <img src="/images/plate4.png" rel="rightimage1" alt="plate4">
+      </div>
+
+      <div class="bottom">
+        <!-- bottom image of inside 2 -->
+        <img src="/images/inside2.png" rel="bottomimage1" alt="inside2">
+      </div>
+    </div>
+  </div>
+
+
+
+  <br>
+
+  <!-- footing with address, nat geo location, phone number, and hours of operation -->
+  <footer>
+    <!-- address, nat geo location, phone number, and hours of operation -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
