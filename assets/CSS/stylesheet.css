@@ -96,32 +96,6 @@ border-color: var(--tealaccent); */
  margin-right: auto;
 }
 
-/* carousel item sizing */
-/* .carousel-item{
-  height: 45vh;
-} */
-
-/* landing about information */
-/* .landing-info{
-  background-color: var(--softpink);
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 2;
-  font-size: 1.7em;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-} */
-
-/* .hero1{
-display: flex;
-justify-content: center;
-}
-
-.hero-photo1{
-  height:27vw;
-} */
 
 /* forms of contact positioning */
 .contactlist{
@@ -314,11 +288,3 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%;
 }
-/* 
-footer{
-  background-color: var(--softpink);
-  text-align: center;
-}
-footer h1{
-  font-size: 1em;
-} */
