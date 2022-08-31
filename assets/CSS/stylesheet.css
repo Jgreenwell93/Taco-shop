@@ -51,7 +51,6 @@ body{
     
 }
 
-
 /* navbar stylings */
 .navbar{
     display: flex;
@@ -86,6 +85,7 @@ border-color: var(--tealaccent); */
 /* header name photo adjustments */
 .header-name{
   margin-left: 8vw;
+  width: 70%;
 }
 
 /* landing page carousel sizing and position */
@@ -96,7 +96,34 @@ border-color: var(--tealaccent); */
  margin-right: auto;
 }
 
-/* landing main */
+.landing-main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+}
+
+.left-block-img{
+  width: 40vw;
+  height: auto;
+}
+
+.right-block{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+
+.right-top-img{
+  width: auto;
+  height: 16vw;
+  margin-right: .5vw;
+}
+
+.right-bottom-img{
+  width: 56.4vw;
+  height: auto;
+  margin-top: .5vw;
+}
 
 /* positioning of captions on landing main photo */
 /* .bottom-right{
@@ -109,6 +136,11 @@ border-color: var(--tealaccent); */
   border-radius: .5vw;
   font-size: 2em;
 } */
+
+.map{
+ height:12vw;
+ width: auto;
+}
 
 
 /* forms of contact positioning */
