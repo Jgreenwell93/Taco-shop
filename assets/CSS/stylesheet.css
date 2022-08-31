@@ -51,7 +51,6 @@ body{
     
 }
 
-
 /* navbar stylings */
 .navbar{
     display: flex;
@@ -137,6 +136,11 @@ border-color: var(--tealaccent); */
   border-radius: .5vw;
   font-size: 2em;
 } */
+
+.map{
+ height:12vw;
+ width: auto;
+}
 
 
 /* forms of contact positioning */
