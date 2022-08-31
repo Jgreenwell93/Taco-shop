@@ -86,6 +86,7 @@ border-color: var(--tealaccent); */
 /* header name photo adjustments */
 .header-name{
   margin-left: 8vw;
+  width: 70%;
 }
 
 /* landing page carousel sizing and position */
