@@ -2,6 +2,7 @@
     --tealaccent:#55c3c5;
     --peach:#fdc4ad;
     --darkback: #503b3b;
+    --darkaccent:#312d2d;
 }
 
 /* setting background color to soft pink both in the html and body */
@@ -51,6 +52,17 @@ body{
     
 }
 
+.nav{
+  background-color: var(--darkaccent);
+  display: flex;
+  justify-content: center;
+}
+
+/* logo photo adjustmets */
+.nav-photo{
+  height: 15vw;
+  }
+
 /* navbar stylings */
 .navbar{
     display: flex;
@@ -66,25 +78,17 @@ body{
 }
 
 /* header adjustments */
-.page-header{
+.top-name{
   margin-top: 2vh;
   margin-left: 6vw;
   display: flex;
   background-color: var(--darkback);
+  justify-content: center;
 }
 
-
-/* logo photo adjustmets */
-.header-photo{
-height: 15vw;
-border-radius: 4%;
-/* border-style: solid;
-border-color: var(--tealaccent); */
-}
 
 /* header name photo adjustments */
 .header-name{
-  margin-left: 8vw;
   width: 70%;
 }
 
@@ -100,6 +104,7 @@ border-color: var(--tealaccent); */
   display: flex;
   flex-direction: row;
   margin-top: 3vh;
+  margin-left: 1vw;
 }
 
 .left-block-img{
