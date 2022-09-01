@@ -171,17 +171,35 @@ body{
 /* general menu body margin */
 .menu-body{
   margin: 1vw;
+  display: flex;
+  justify-content: center;
 }
 
 /* menu page backing and shaping */
 .menu-page{
   background-color: var(--darkaccent);
   border-radius: 5%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* menu section boldening */
 .menu-bold{
   font-weight: bolder;
+}
+
+/* positiing of a la carta items */
+.la-carta{
+  display: flex;
+  flex-direction: row;
+}
+
+/* la carta block spacing */
+.la-carta-block{
+  margin-left: .75vw;
+  margin-right: .75vw;
 }
 
 
