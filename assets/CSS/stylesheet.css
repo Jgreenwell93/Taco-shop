@@ -52,6 +52,7 @@ body{
     
 }
 
+/* nav bar positiong */
 .nav{
   background-color: var(--darkaccent);
   display: flex;
@@ -77,6 +78,8 @@ body{
     margin: 6vw;
 }
 
+/* index */
+
 /* header adjustments */
 .top-name{
   margin-top: 2vh;
@@ -100,13 +103,14 @@ body{
  margin-right: auto;
 }
 
+/* main body of indext ajustments */
 .landing-main{
   display: flex;
   flex-direction: row;
   margin-top: 3vh;
   margin-left: 1vw;
 }
-
+ /* body image positioning */
 .left-block-img{
   width: 40vw;
   height: auto;
@@ -142,6 +146,7 @@ body{
   font-size: 2em;
 } */
 
+ /* adjustments for footer */
 .foot{
   display: flex;
   flex-direction: row;
@@ -150,15 +155,40 @@ body{
   background-color: var(--darkaccent);
 }
 
+/* address position adjustments */
 .address-info{
   margin-bottom: 12vh;
 }
 
+/* nat geo map sizing */
 .map{
  height:12vw;
  width: auto;
 }
 
+/* menu */
+
+/* general menu body margin */
+.menu-body{
+  margin: 1vw;
+}
+
+/* menu page backing and shaping */
+.menu-page{
+  background-color: var(--darkaccent);
+  border-radius: 5%;
+}
+
+/* menu section boldening */
+.menu-bold{
+  font-weight: bolder;
+}
+
+
+/* gallery */
+
+
+/* contact  */
 
 /* forms of contact positioning */
 .contactlist{
@@ -351,3 +381,6 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%;
 }
+
+
+/* media queries */
