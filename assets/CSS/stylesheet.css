@@ -137,6 +137,12 @@ border-color: var(--tealaccent); */
   font-size: 2em;
 } */
 
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .map{
  height:12vw;
  width: auto;
