@@ -192,6 +192,10 @@ body{
   font-weight: bolder;
 }
 
+.menu-list{
+  list-style: none;
+}
+
 /* positiing of a la carta items */
 .la-carta{
   display: flex;
