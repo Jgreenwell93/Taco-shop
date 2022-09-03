@@ -170,13 +170,15 @@ body{
 
 /* general menu body margin */
 .menu-body{
-  margin: 1vw;
+  margin-bottom: 1vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* menu page backing and shaping */
 .menu-page{
+  margin-top: 1vw;
   background-color: var(--darkaccent);
   border-radius: 5%;
   padding: 1vw;
@@ -190,6 +192,10 @@ body{
   font-weight: bolder;
 }
 
+.menu-list{
+  list-style: none;
+}
+
 /* positiing of a la carta items */
 .la-carta{
   display: flex;
@@ -198,6 +204,18 @@ body{
 
 /* la carta block spacing */
 .la-carta-block{
+  margin-left: .75vw;
+  margin-right: .75vw;
+}
+
+/* positioning of regular menu section item blocks */
+.menu-section{
+  display: flex;
+  flex-direction: row;
+}
+
+/* menu section block spacing */
+.menu-section-block{
   margin-left: .75vw;
   margin-right: .75vw;
 }
