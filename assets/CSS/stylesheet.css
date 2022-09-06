@@ -209,6 +209,12 @@ body{
   margin-right: .75vw;
 }
 
+/* kids menu is positioned differently */
+.kids-menu{
+  display: flex;
+  flex-direction: row;
+}
+
 
 /* gallery */
 
