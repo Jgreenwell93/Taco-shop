@@ -176,7 +176,7 @@ body{
   align-items: center;
 }
 
-/* menu page backing and shaping */
+/* menu page backing, shaping, and positioning of scoped children */
 .menu-page{
   margin-top: 1vw;
   background-color: var(--darkaccent);
@@ -192,20 +192,9 @@ body{
   font-weight: bolder;
 }
 
+/* removing bullets from list elemtns */
 .menu-list{
   list-style: none;
-}
-
-/* positiing of a la carta items */
-.la-carta{
-  display: flex;
-  flex-direction: row;
-}
-
-/* la carta block spacing */
-.la-carta-block{
-  margin-left: .75vw;
-  margin-right: .75vw;
 }
 
 /* positioning of regular menu section item blocks */
