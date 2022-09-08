@@ -218,6 +218,7 @@ body{
 
 /* gallery */
 
+/* general gallery positioning */
 .gallery-page{
   margin-top: 1vw;
   margin-bottom: 1vw;
@@ -229,9 +230,20 @@ body{
   align-items: center;
 }
 
-.galleryimg{
+/* adds space between each gallery item */
+.gallery-item{
   margin-top: .5vw;
   margin-bottom: .5vw;
+}
+
+/* positioning and styling of captions on gallery images */
+.gallery-bottom-left{
+  /* background-color: var(--darkaccent); */
+  /* if background color is used, may need to rework how positioning works based on what is typed in the p tag due to image size and wrapping */
+  position: relative;
+  bottom: 4vw;
+  left: 1vw;
+  font-size: 1.8rem;
 }
 
 
