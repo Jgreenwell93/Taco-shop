@@ -164,6 +164,7 @@ body{
 .map{
  height:12vw;
  width: auto;
+ margin-top: .75vh;
 }
 
 /* menu */
@@ -459,3 +460,68 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 
 /* media queries */
+
+/* medium-small */
+@media (max-width: 800px){
+
+/* logo photo adjustmets */
+.nav-photo{
+  height: 22vw;
+  }
+
+/* navbar stylings */
+.navbar{
+    justify-content: center;
+}
+
+/* individual navbar item stylings */
+.navitem{
+    margin: 5vw;
+}
+
+  /* nat geo map sizing */
+  .map{
+    height:30vw;
+   }
+}
+
+/* small */
+@media (max-width: 640px){
+
+  /* logo photo adjustmets */
+.nav-photo{
+  height: 30vw;
+  }
+
+  /* nat geo map sizing */
+.map{
+  height:30vw;
+  margin-right: 1vw;
+ }
+}
+
+/* extra small */
+@media (max-width: 500px){
+
+    /* logo photo adjustmets */
+.nav-photo{
+  height: 40vw;
+  }
+
+  /* adjustments for footer */
+.foot{
+  flex-direction: column;
+}
+
+/* address position adjustments */
+.address-info{
+  margin-bottom: 8vh;
+}
+
+/* nat geo map sizing */
+.map{
+ height:70vw;
+ margin-right: none;
+}
+
+}
